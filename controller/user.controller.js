@@ -1,5 +1,5 @@
-import User from "../model/user.model";
-import { hashPassword } from "../utils/encyption";
+import User from "../model/user.model.js";
+import { hashPassword } from "../utils/encyption.js";
 
 export const signup = async (req, res) => {
     try {
